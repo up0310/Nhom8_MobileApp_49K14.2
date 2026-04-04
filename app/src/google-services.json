@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "268033824468",
+    "firebase_url": "https://nhacnhouongnuoc-25ba4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nhacnhouongnuoc-25ba4",
+    "storage_bucket": "nhacnhouongnuoc-25ba4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268033824468:android:2573bb620ac5e5a4dc8d41",
+        "android_client_info": {
+          "package_name": "com.example.nhacnhouongnuoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXazj7Lv45xzUiqbAQYdwhbvvQQO8vIvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
