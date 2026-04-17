@@ -4,6 +4,12 @@
     <string name="target_water">/ 2500 ml</string>
     <string name="target_water_dynamic">/ %1$d ml</string>
     <string name="start_goal_msg">Bắt đầu mục tiêu ngày\nhôm nay thôi!</string>
+    <string name="home_remaining_hint_default">Chỉ còn 0ml nữa thôi!</string>
+    <string name="home_remaining_hint_dynamic">Chỉ còn %1$dml nữa thôi!</string>
+    <string name="home_progress_cheer">Bạn đang làm rất tốt!</string>
+    <string name="home_progress_cheer_strong">Sắp hoàn thành rồi!</string>
+    <string name="home_progress_summary_default">Hoàn thành 0 lít trong mục tiêu 2.5 lít</string>
+    <string name="home_progress_summary_dynamic">Hoàn thành %1$s trong mục tiêu %2$s</string>
     <string name="onboarding_title">Thiết lập nhu cầu nước hằng ngày</string>
     <string name="onboarding_intro">Nhập thông tin cơ bản để app đề xuất lượng nước phù hợp theo cân nặng và mức vận động.</string>
     <string name="home_recommendation_range">Khuyến nghị: %1$d - %2$d ml/ngày</string>
@@ -12,6 +18,7 @@
     <string name="today_progress">Tiến độ hôm nay</string>
     <string name="quick_log">Ghi nhanh</string>
     <string name="ml_200">200ml</string>
+    <string name="ml_300">300ml</string>
     <string name="ml_350">350ml</string>
     <string name="ml_500">500ml</string>
     <string name="log_water">Ghi nhận lượng nước uống</string>
@@ -49,6 +56,12 @@
     <string name="log_amount_dynamic">%1$d ml</string>
     <string name="weekly_average_value_dynamic">%1$d ml</string>
     <string name="total_water_value_dynamic">%1$.2f L</string>
+    <string name="stats_day_intake_tooltip">%1$s: %2$d ml</string>
+    <string name="stats_chart_tap_hint">Chạm vào cột để xem lượng nước</string>
+    <string name="stats_view_more_history">Xem thêm lịch sử</string>
+    <string name="history_dialog_title">Lịch sử uống nước gần đây</string>
+    <string name="history_dialog_empty">Chưa có lịch sử uống nước.</string>
+    <string name="history_dialog_item">%1$s - %2$d ml</string>
     <string name="today_time_format">Hôm nay, %1$s</string>
     <string name="no_log_yet">Chưa có dữ liệu</string>
     <string name="achievements">Thành tích</string>
@@ -56,8 +69,8 @@
     <string name="achievement_streak_desc">Uống đủ nước trong 3 ngày liên tiếp</string>
     <string name="achievement_hero_title">Hydration Hero</string>
     <string name="achievement_hero_desc">Đạt mục tiêu ngày đầu tiên</string>
-    <string name="achievement_unlocked">Da dat</string>
-    <string name="achievement_progress_dynamic">Tien do: %1$d%%</string>
+    <string name="achievement_unlocked">Đã đạt</string>
+    <string name="achievement_progress_dynamic">Tiến độ: %1$d%%</string>
 
     <string name="explore_title">Khám phá</string>
     <string name="search_article_hint">Tìm kiếm bài viết...</string>
@@ -105,9 +118,14 @@
     <string name="account_section">Tài khoản &amp; đồng bộ</string>
     <string name="account_not_logged_in">Chưa đăng nhập</string>
     <string name="account_logged_in_as">Đang đăng nhập: %1$s</string>
+    <string name="account_guest_hint">Đăng nhập để đồng bộ cân nặng, giới tính và lịch sử uống nước giữa các thiết bị.</string>
     <string name="login">Đăng nhập</string>
+    <string name="login_now">Đăng nhập ngay</string>
     <string name="register">Đăng ký</string>
     <string name="logout">Đăng xuất</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="current_password">Mật khẩu hiện tại</string>
+    <string name="current_password_incorrect">Mật khẩu hiện tại không đúng</string>
     <string name="sync_now">Đồng bộ ngay</string>
     <string name="auth_dialog_title_login">Đăng nhập tài khoản</string>
     <string name="auth_dialog_title_register">Tạo tài khoản mới</string>
@@ -124,6 +142,14 @@
     <string name="email">Email</string>
     <string name="password">Mật khẩu</string>
     <string name="forgot_password">Quên mật khẩu</string>
+    <string name="forgot_step_contact_label">Email</string>
+    <string name="forgot_step_contact_hint">Nhập tên đăng nhập</string>
+    <string name="forgot_step_send_otp">Khôi phục mật khẩu</string>
+    <string name="forgot_step_otp_hint">Nhập mã OTP</string>
+    <string name="forgot_step_confirm">Xác nhận</string>
+    <string name="forgot_step_new_password_hint">Nhập tên đăng nhập</string>
+    <string name="forgot_step_confirm_password_hint">Nhập mật khẩu</string>
+    <string name="back_to_login_prefix">Quay lại trang </string>
     <string name="forgot_password_title">Khôi phục mật khẩu</string>
     <string name="forgot_password_subtitle">Nhập email để nhận OTP xác thực trước khi gửi email đặt lại mật khẩu.</string>
     <string name="forgot_password_note">OTP có hiệu lực trong 5 phút. Sau khi xác thực thành công, app sẽ gửi email đặt lại mật khẩu.</string>
@@ -151,6 +177,9 @@
     <string name="reset_requires_email_link">Đã xác thực OTP. Vui lòng dùng liên kết trong email để hoàn tất đổi mật khẩu trên Firebase.</string>
     <string name="login_success">Đăng nhập thành công</string>
     <string name="register_success">Đăng ký thành công</string>
+    <string name="notice_error_title">THÔNG BÁO LỖI</string>
+    <string name="notice_success_title">THÀNH CÔNG</string>
+    <string name="register_success_popup">Tạo tài khoản thành công</string>
     <string name="logout_success">Đã đăng xuất</string>
     <string name="sync_success">Đồng bộ dữ liệu thành công</string>
     <string name="account_synced_from_cloud">Đã tải dữ liệu tài khoản từ Firebase</string>
@@ -228,9 +257,22 @@
     <string name="input_required">Vui lòng nhập đầy đủ thông tin hợp lệ</string>
     <string name="log_water_title">Ghi nhận nước uống</string>
     <string name="set_goal_title">Đặt mục tiêu hằng ngày</string>
+    <string name="log_water_new_title">Ghi nhận nước mới</string>
+    <string name="log_water_picker_title">Chọn lượng nước bạn đã uống</string>
+    <string name="log_choice_cup">Ly nước</string>
+    <string name="log_choice_ceramic">Cốc sứ</string>
+    <string name="log_choice_small_bottle">Chai nhỏ</string>
+    <string name="log_choice_large_bottle">Chai lớn</string>
+    <string name="log_already_drank_today">Hôm nay bạn đã uống %1$d ml</string>
+    <string name="log_custom_title">Hoặc nhập lượng tùy chỉnh</string>
+    <string name="log_custom_subtitle">Lượng nước (ml)</string>
+    <string name="log_custom_hint">Ví dụ: 250</string>
+    <string name="log_today_total">Tổng hôm nay</string>
+    <string name="confirm">Xác nhận</string>
     <string name="hint_amount_ml">Nhập số ml</string>
     <string name="hint_goal_ml">Mục tiêu ml/ngày</string>
     <string name="save">Lưu</string>
+    <string name="close">Đóng</string>
     <string name="calculate">Tính</string>
     <string name="cancel">Hủy</string>
     <string name="result_placeholder">Kết quả sẽ hiển thị ở đây</string>
@@ -249,9 +291,46 @@
     <string name="bmi_obese">Béo phì</string>
     <string name="water_logged">Đã ghi nhận %1$d ml</string>
     <string name="goal_updated">Đã cập nhật mục tiêu %1$d ml/ngày</string>
+    <string name="set_goal_new_title">Thiết lập mục tiêu mới</string>
+    <string name="set_goal_new_subtitle">Hãy chọn mục tiêu lượng nước bạn cần uống mỗi ngày để cơ thể luôn khỏe mạnh.</string>
+    <string name="set_goal_manual">Điều chỉnh thủ công</string>
+    <string name="set_goal_quick_pick">Chọn nhanh</string>
+    <string name="set_goal_quick_normal">Trung bình</string>
+    <string name="set_goal_quick_recommended">Khuyến dùng</string>
+    <string name="set_goal_quick_active">Vận động</string>
+    <string name="set_goal_note">Lượng nước lý tưởng có thể thay đổi tùy thuộc vào cân nặng và mức độ hoạt động của bạn.</string>
+    <string name="save_goal">Lưu mục tiêu</string>
+    <string name="goal_reached_title">Chúc mừng!</string>
+    <string name="goal_reached_message_default">Bạn đã hoàn thành mục tiêu hôm nay!</string>
+    <string name="goal_reached_message_dynamic">Bạn đã hoàn thành mục tiêu %1$d ml hôm nay!</string>
+    <string name="continue_label">Tiếp tục</string>
     <string name="rate_section">Đánh giá ứng dụng</string>
     <string name="rate_title">Đánh giá ứng dụng</string>
     <string name="rate_subtitle">Chia sẻ trải nghiệm của bạn</string>
+    <string name="rate_question">Bạn cảm thấy AquaRemind như thế nào?</string>
+    <string name="rate_comment_title">Nhận xét (tùy chọn)</string>
+    <string name="rate_comment_hint">Chia sẻ thêm về trải nghiệm của bạn...</string>
+    <string name="rate_submit">Gửi đánh giá</string>
+    <string name="rate_success_title">Cảm ơn bạn đã đánh giá!</string>
+    <string name="rate_success_desc">Đánh giá của bạn giúp chúng tôi cải thiện ứng dụng tốt hơn.</string>
+    <string name="rate_back_settings">Quay lại cài đặt</string>
+    <string name="rate_status_excellent">Tuyệt vời</string>
+    <string name="rate_status_good">Tốt</string>
+    <string name="rate_status_okay">Ổn</string>
+    <string name="rate_status_bad">Cần cải thiện</string>
+    <string name="add_with_plus">Thêm</string>
+    <string name="sound_title">Âm thanh</string>
+    <string name="sound_subtitle">Bật âm thanh khi nhắc nhở</string>
+    <string name="vibrate_title">Rung</string>
+    <string name="vibrate_subtitle">Bật rung khi nhắc nhở</string>
+    <string name="gender_title">Giới tính</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+    <string name="recommended_water_short">Lượng nước khuyến nghị</string>
+    <string name="recommended_water_big">%1$d ml/ngày</string>
+    <string name="recommended_water_note">Dựa trên cân nặng %1$.0f kg, bạn nên uống khoảng %2$d ml nước mỗi ngày.</string>
+    <string name="apply_goal">Áp dụng làm mục tiêu</string>
 
     <string-array name="language_display_names">
         <item>Tiếng Việt</item>
@@ -292,6 +371,7 @@
     <string-array name="gender_labels">
         <item>Nam</item>
         <item>Nữ</item>
+        <item>Khác</item>
     </string-array>
 
     <string-array name="tdee_activity_labels">
