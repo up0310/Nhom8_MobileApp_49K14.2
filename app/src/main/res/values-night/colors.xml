@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_light_blue">#07121C</color>
+    <color name="bottom_nav_bg">#10212F</color>
+    <color name="bottom_nav_stroke">#284558</color>
+    <color name="primary_blue">#67C7FF</color>
+    <color name="progress_empty">#1B3242</color>
+    <color name="white_semi">#B3FFFFFF</color>
+
+    <color name="screen_background">#07121C</color>
+    <color name="card_surface">#102433</color>
+    <color name="text_primary">#E3F0FA</color>
+    <color name="text_secondary">#9FB4C5</color>
+    <color name="divider_light">#1F384A</color>
+    <color name="icon_circle_bg">#16364A</color>
+    <color name="icon_muted">#7A95A8</color>
+
+    <color name="bar_fill">#3A90B9</color>
+    <color name="achievement_fill">#2F83AC</color>
+    <color name="tag_health_bg">#153145</color>
+    <color name="tag_guide_bg">#1E4632</color>
+    <color name="tag_guide_fg">#84CFA0</color>
+    <color name="article_icon_red_bg">#492B32</color>
+    <color name="article_icon_red_fg">#FF8E8E</color>
+    <color name="article_icon_yellow_bg">#4D4526</color>
+    <color name="article_icon_yellow_fg">#F8D477</color>
+
+    <color name="bg_gradient_top">#0A1A28</color>
+    <color name="bg_gradient_bottom">#07121C</color>
+    <color name="nav_checked">#8CD9FF</color>
+    <color name="nav_unchecked">#8AA2B3</color>
+    <color name="card_stroke">#1B3A4D</color>
+</resources>
